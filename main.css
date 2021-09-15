@@ -141,6 +141,42 @@ p a {
     font-size: 1.4rem;
 }
 
-@media only screen and (min-width: 500px) {
-    body {}
+@media only screen and (min-width: 800px) {
+    body {
+        max-width: 900px;
+    }
+    header {
+        top: 0;
+        left: 12%;
+        bottom: 0;
+        width: 15%;
+        height: 100vh;
+        position: fixed;
+        padding-top: 2.5%;
+        padding-left: 2%;
+    }
+
+    header li{
+        padding: 4%;
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch; 
+        justify-content: left;   
+        padding-top: 5%;
+        position: absolute;
+        right: 12%;
+        width: 55%;
+              
+    }
+    article{
+        margin: 0 10% 5% 10%;
+        padding: 5% 12% 5% 12%;        
+    }
+
+    img{
+        width: 325px;
+    }
 }
